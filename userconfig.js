@@ -2,8 +2,8 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = mocha;
-const preferredDarkTheme = mocha;
+const preferredLightTheme = macchiato;
+const preferredDarkTheme = macchiato;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -42,8 +42,8 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "Zorpalod",
-      background_url: "src/img/banners/banner_09.gif",
+      name: "Start",
+      background_url: "src/img/banners/orange_bg.png",
       categories: [
         {
           name: "bookmarks",
