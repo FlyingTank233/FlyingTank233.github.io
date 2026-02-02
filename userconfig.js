@@ -46,7 +46,7 @@ const default_configuration = {
       background_url: "src/img/banners/orange_bg.png",
       categories: [
         {
-          name: "bookmarks",
+          name: "music",
           links: [
             {
               name: "musicForProgramming();",
@@ -93,30 +93,6 @@ const default_configuration = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.red,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
