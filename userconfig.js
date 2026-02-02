@@ -49,12 +49,6 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
               icon: "binary-tree",
@@ -95,10 +89,10 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
+              name: "YouTube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.red,
             },
             {
               name: "mil.in.ua",
