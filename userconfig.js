@@ -99,8 +99,8 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      name: "development",
+      background_url: "src/img/banners/orange_bg.png",
       categories: [
         {
           name: "development",
@@ -192,8 +192,8 @@ const default_configuration = {
       ],
     },
     {
-      name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      name: "Fun",
+      background_url: "src/img/banners/orange_bg.png",
       categories: [
         {
           name: "social media",
@@ -205,14 +205,8 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
               name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              url: "https://www.reddit.com/",
               icon: "brand-reddit",
               icon_color: palette.red,
             },
@@ -222,28 +216,10 @@ const default_configuration = {
           name: "gaming",
           links: [
             {
-              name: "infiniteBacklog",
-              url: "https://infinitebacklog.net",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
               name: "steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
               icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -261,18 +237,6 @@ const default_configuration = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
