@@ -2,15 +2,15 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = latte;
-const preferredDarkTheme = frappe;
+const preferredLightTheme = mocha;
+const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Santiago",
     scale: "C",
   },
   clock: {
@@ -19,15 +19,14 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/Kyiv",
+      label: "CH",
+      timezone: "America/Chile/Santiago",
       format: "h:i",
       icon_color: palette.peach,
     },
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
@@ -39,11 +38,11 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://duckduckgo.com/?q=",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "Zorpalod",
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
