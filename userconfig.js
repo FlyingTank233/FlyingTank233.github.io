@@ -99,7 +99,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "development",
+      name: "Dev",
       background_url: "src/img/banners/orange_bg.png",
       categories: [
         {
